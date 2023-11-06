@@ -1,0 +1,105 @@
+body {
+  background-color: #5c483a;
+}
+
+.secciones a {
+  text-decoration: none;
+  color: #f9f5e3;
+}
+
+.secciones {
+  background-color: #d9534f;
+  text-align: center;
+  display: flex;
+  padding: 35px;
+}
+section {
+  margin: 7%;
+  margin-top: 0;
+}
+
+.comida {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bebidas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedor img {
+  position: relative;
+  height: 100%;
+  margin: 5%;
+  margin-top: 3%;
+  text-align: center;
+}
+.comida p {
+  color: #f1e9bb;
+  width: 15%;
+  margin-top: 2%;
+  line-height: 1.5;
+}
+
+.bebidas p {
+  color: #f1e9bb;
+  width: 15%;
+  margin-top: 4%;
+  line-height: 1.5;
+}
+
+.contenedor h2 {
+  text-align: center;
+  color: #fc6b0a;
+}
+
+.historias {
+  background-color: #cf6123;
+  color: #f9f5e3;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 7%;
+  border-radius: 3%;
+  display: block;
+}
+
+.historias h2 {
+  margin-left: 2%;
+}
+.historias p {
+  width: 30%;
+  margin-left: 2%;
+}
+
+.historias img {
+  margin: 0.4%;
+  float: right;
+  clear: both;
+  border-radius: 12px;
+}
+
+.contacto {
+  display: block;
+  margin-top: 10px;
+  width: auto;
+  background-color: #f3c363;
+}
+
+.contacto h3 {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto p {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.contacto a {
+  text-decoration: none;
+  background-size: contain;
+}

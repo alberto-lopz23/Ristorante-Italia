@@ -1,0 +1,37 @@
+body {
+  background-color: #f1c972;
+  color: #f2e8c4;
+}
+
+.perfil {
+  background-color: #f5886b;
+  border: solid;
+  border-radius: 2px;
+  border-color: #ecb599;
+  width: 80%;
+  margin: 0;
+  text-align: center;
+  margin-left: 115px;
+}
+
+.descripcion {
+  background-color: #f5886b;
+  font-size: 30px;
+  display: flex;
+  margin: 0;
+  margin-left: 19%;
+  text-align: left;
+  width: 60%;
+  border-radius: 2px;
+  border: solid;
+  border-top: none;
+  border-color: #ecb599;
+}
+a {
+  color: #f2e8c4;
+  text-decoration: none;
+}
+.descripcion p {
+  width: 90%;
+  margin-left: 5%;
+}
